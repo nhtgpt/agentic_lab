@@ -4,3 +4,4 @@ This repository hosts a polished static website for a world-class research lab f
 
 ## Usage
 Open `index.html` locally or publish the repository on GitHub Pages to view the site.
+
