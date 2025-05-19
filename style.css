@@ -1,109 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background: linear-gradient(135deg, #e8eef8, #f8f9fc);
-    color: #333;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: rgba(255,255,255,0.95);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-nav .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-}
-
-nav .menu {
-    list-style: none;
+    font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #1b2838;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
     display: flex;
     gap: 1rem;
 }
 
-nav .menu li a {
+.nav-links a {
+    color: #fff;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .hero {
-    text-align: center;
-    padding: 6rem 2rem;
-    background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
-    color: white;
-}
-
-.hero .btn {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.75rem 2rem;
-    background: #2c3e50;
+    background: linear-gradient(135deg, #667db6, #0082c8, #0082c8, #667db6);
     color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
+    text-align: center;
+    padding: 4rem 0;
 }
 
 section {
-    padding: 4rem 2rem;
-    max-width: 1000px;
-    margin: auto;
+    padding: 3rem 0;
 }
 
-.grid {
+h2 {
+    color: #1b2838;
+}
+
+.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .card {
     background: #fff;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.card i {
-    margin-bottom: 0.5rem;
-    color: #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
-    text-align: center;
+    margin-top: 1.5rem;
 }
 
-.member {
-    background: #ffffffdd;
+.member-card {
+    background: #ffffffee;
+    padding: 1rem;
     border-radius: 8px;
-    padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.member .role {
-    font-weight: bold;
-    color: #2c3e50;
+    text-align: center;
 }
 
 footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    background: #2c3e50;
+    background: #1b2838;
     color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }

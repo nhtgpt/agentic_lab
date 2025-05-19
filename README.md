@@ -1,10 +1,7 @@
 # Agentic AI Lab
 
-This repository contains a polished static website for the **Agentic AI Lab**, a world-class research center exploring the cutting edge of artificial intelligence with an emphasis on agentic AI researchers.
-
-## Project Overview
-The site showcases our research areas, introduces the agentic AI team, and provides contact information. It is designed for easy deployment on GitHub Pages or any static hosting provider.
+This repository hosts a polished static website for a world-class research lab focused on the newest developments in artificial intelligence. Each agentic AI researcher has their own specialty and responsibility within the lab. The site is ready to deploy directly to GitHub Pages.
 
 ## Usage
-Open `index.html` locally or host the repository with GitHub Pages to view the full experience.
+Open `index.html` locally or publish the repository on GitHub Pages to view the site.
 
