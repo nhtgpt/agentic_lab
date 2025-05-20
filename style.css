@@ -1,0 +1,15 @@
+body {
+    padding-top: 56px; /* space for fixed navbar */
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    font-size: 0.9rem;
+}
